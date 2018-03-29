@@ -6,3 +6,7 @@ $.get("navigation.html", function(data){
 $.get("about.html", function(data){
     $(".about").replaceWith(data);
 });
+// Places the options html into index
+$.get("options.html", function(data){
+    $(".options").replaceWith(data);
+});
