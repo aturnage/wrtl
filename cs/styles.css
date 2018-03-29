@@ -1,0 +1,13 @@
+.navigationBar{
+    background-color: white;
+    max-width: auto;
+}
+.navigationBar ul{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0;
+}
+.navigationBar img{
+    max-width: 14vh;
+}
